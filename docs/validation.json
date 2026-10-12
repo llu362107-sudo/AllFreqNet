@@ -1,0 +1,51 @@
+{
+  "model_parameters": 25114700,
+  "checkpoint_entries": 747,
+  "original_output_bitwise_equal": true,
+  "unit_tests": 9,
+  "synthetic_training_iterations": 2,
+  "evaluation_slices": 4,
+  "modalities": [
+    "CT",
+    "MA",
+    "PET",
+    "MRI"
+  ],
+  "device": "cpu",
+  "python": "3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)]",
+  "torch": "1.13.1+cpu",
+  "dicom_slices": 2,
+  "optimizer_scheduler_resume": true,
+  "paper_aligned_names": true,
+  "renaming_strict_checkpoint_load": true,
+  "renaming_eval_output_bitwise_equal": true,
+  "renaming_training_outputs_and_gradients_bitwise_equal": true,
+  "source_model_sha256": "1d38a6dde84a87291c21586395945ec9f00f11200b9b50e66e9fdc3c7d43ac9f",
+  "source_license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "release_model_sha256": "83c07bd6ad68048f24ecf9e136353e120d2163a9b976277f7d4af15ec1a0e970",
+  "release_model_files_sha256": {
+    "model/__init__.py": "617e5024c3935d70e3a56c85de4081d19cad017b9dea1fbcbcd0741e25c96680",
+    "model/allfreqnet.py": "83c07bd6ad68048f24ecf9e136353e120d2163a9b976277f7d4af15ec1a0e970",
+    "model/ms_moe.py": "6348c30ea2414ba6000d7a3b56b951e01498565224ebb2f30544af2bf40e27a8",
+    "model/rc_fpm.py": "86390dd7211571d14ce3292680c86a2451f60d4a5bc0041984129fbb50120988",
+    "model/task_descriptor.py": "fe09c0c4d0a3160fc0859b3a5864183763ddc3c6dd19cab46c497da2f832856a",
+    "model/transformer.py": "fdc2dd8ffa1a22cabf19d5d9510b688a33b3b6aaed806f056da4dabfd2f0f13b"
+  },
+  "model_identifier_renames": {
+    "AMIR": "AllFreqNet",
+    "Spatial_Routing": "MSMoE",
+    "MoE": "TaskAdaptiveMoE",
+    "SparseDispatcher": "SparseExpertDispatcher",
+    "Mlp": "ExpertMLP",
+    "Channel_Routing": "ChannelRouting",
+    "RIN": "GlobalTaskDescriptor",
+    "RegionAdaptiveKernelFilter": "RegionAdaptiveFrequencyDecoupling",
+    "FrequencySpecificPromptGenerator_Coord": "CoordinateConditionedFrequencyPromptGenerator",
+    "PromptModule_Coord": "RCFPM",
+    "BiasFree_LayerNorm": "BiasFreeLayerNorm",
+    "WithBias_LayerNorm": "WithBiasLayerNorm"
+  },
+  "model_computational_ast_preserved": true,
+  "source_code_sha256_unchanged": true,
+  "scope_note": "Synthetic CPU software validation only; no manuscript score reproduction."
+}

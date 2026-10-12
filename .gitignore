@@ -1,0 +1,50 @@
+# Python / environments / editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datasets, weights and generated results
+datasets/
+local_data/
+runs/
+results/
+experiment/
+artifacts/
+tmp/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.raw
+*.nii
+*.nii.gz
+*.dcm
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.log
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

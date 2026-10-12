@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the AllFreqNet manuscript and the upstream works in README.md."
+type: software
+title: "AllFreqNet: A Unified Frequency-Enhanced All-in-One Framework for Medical Image Restoration"
+authors:
+  - family-names: Lu
+    given-names: Zhouxian
+  - family-names: Hu
+    given-names: Xiangyun
+  - family-names: Dong
+    given-names: Pengwei
+  - family-names: Zha
+    given-names: Yunfei
+  - family-names: Yao
+    given-names: Jian
+  - family-names: Su
+    given-names: Bo
+license: Apache-2.0

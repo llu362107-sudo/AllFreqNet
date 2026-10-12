@@ -1,0 +1,7 @@
+# Install the appropriate CPU/CUDA PyTorch build first, then install this file.
+torch>=1.13
+numpy>=1.21
+einops>=0.6
+SimpleITK>=2.2
+tqdm>=4.64
+# Optional DICOM support is in requirements-dicom.txt.

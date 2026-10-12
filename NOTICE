@@ -1,0 +1,23 @@
+AllFreqNet: A Unified Frequency-Enhanced All-in-One Framework for Medical Image Restoration
+
+This release is a cleaned distribution of the supplied version3 research code.
+The Apache License, Version 2.0 supplied with version3 is retained in LICENSE.
+Cleanup changes include UTF-8 formatting, command-line entry points, portable
+paths, dataset validation, release documentation, and paper-aligned model class
+and file names. Model operations and state_dict parameter names are preserved.
+
+The supplied code is based in part on AMIR:
+All-In-One Medical Image Restoration via Task-Adaptive Routing,
+Zhiwen Yang et al., MICCAI 2024.
+https://github.com/Yaziwel/All-In-One-Medical-Image-Restoration-via-Task-Adaptive-Routing
+
+The Transformer backbone contains components derived from Restormer:
+Restormer: Efficient Transformer for High-Resolution Image Restoration,
+Syed Waqas Zamir et al., CVPR 2022.
+https://github.com/swz30/Restormer
+Its MIT license and copyright notice are retained in third_party/Restormer-LICENSE.txt.
+
+The legacy SSIM implementation credits Po-Hsun-Su/pytorch-ssim. The metric
+implementation in this release retains its Gaussian-window convention.
+https://github.com/Po-Hsun-Su/pytorch-ssim
+Its MIT license is retained in third_party/pytorch-ssim-LICENSE.txt.
